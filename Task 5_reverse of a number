@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,reversenumber=0,remainder;
+printf("Enter a value:");
+scanf("%d",&a);
+while(n!=0)
+{
+remainder=a%10;
+reversenumber=reversenumber*10+remainder;
+n\=10;
+}
+printf("The reversed value is:%d",reversenumber);
+getch();
+}
