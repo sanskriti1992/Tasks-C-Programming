@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char a;
+int b,c;
+printf("Enter name:");
+scanf("%c",&a);
+printf("Enter age:\n");
+scanf("%d", &b);
+printf("Enter phone number:");
+scanf("%d",&c);
+getch();
+}
