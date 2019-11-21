@@ -7,9 +7,9 @@ char a;
 int b,c;
 printf("Enter name:");
 scanf("%c",&a);
-printf("Enter age:\n");
+printf("\nEnter age:");
 scanf("%d", &b);
-printf("Enter phone number:");
+printf("\nEnter phone number:");
 scanf("%d",&c);
 getch();
 }
