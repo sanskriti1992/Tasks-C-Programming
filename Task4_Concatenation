@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char firstname[20], lastname[20];
+printf("Enter first name:");
+gets(firstname);
+printf("Enter last name:")
+gets(lastname);
+for(int i=0;firstname[i]!='\0';i++);
+for(int j=0;lastname[j]!='\0';j++,i++)
+{
+firstname[i]=lastname[j];
+}
+firstname[i]='\0';
+printf("Fullname:%s",firstname);
+getch();
+}
