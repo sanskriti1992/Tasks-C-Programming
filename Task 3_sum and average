@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+float a,b,c,sum,average;
+printf("Maths:");
+scanf("%f",&a);
+printf("\nMechanics:");
+scanf("%f",&b);
+printf("\nBEE:");
+scanf("%f",&c);
+sum=a+b+c;
+printf("\nSum of all marks: %f",sum);
+average=(a+b+c)/3;
+printf("\nAverage of all marks: %f",average);
+getch();
+}
