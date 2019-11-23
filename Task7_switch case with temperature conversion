@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int situation;
+float fahrenheit,celsius;
+printf("Choose the type of situation (1,2):");
+scanf("%d",&situation);
+switch(situation)
+{
+case 1:
+printf("To convert temperature from celsius to fahrenheit");
+print("\nEnter the value of temperature:");
+scanf("%f",&celsius);
+fahrenheit=(1.8*celsius)+32;
+printf("The temperature in fahrenheit is %f",fahrenheit);
+break;
+
+case 2:
+printf("To convert temperature from fahrenheit to celsius");
+printf("\nEnter the value of temperature:");
+scanf("%f",&fahrenheit);
+celsius=(fahrenheit-32)/1.8;
+printf("The temperature in celsius is %f",celsius);
+break;
+
+default:
+printf("Exit");
+}
+getch();
+}
+
+
+
+
+
+
+
+
