@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char word[30];
+int length,flag;
+printf("Enter the string:");
+gets(word);
+length=strlen(word);
+for(int i=0;i<length;i++)
+{
+if(word[i]!=word[length-i-1])
+flag=1;
+break;
+}
+if(flag==1)
+{
+printf("The string %s is not a palindrome:",word);
+}
+else
+{
+printf("The string %s is a palindrome:",word);
+}
+getch();
+}
