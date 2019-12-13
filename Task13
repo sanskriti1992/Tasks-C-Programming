@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+struct book
+{
+char title[50];
+char author[50];
+char genre[100];
+};
+void main()
+{
+struct book novel;
+printf("Name of the novel:");
+scanf("%s",&novel.title);
+printf("\nAuthor:");
+scanf("%s",&novel.author);
+printf("\nGenre:");
+scanf("%s",&novel.genre);
+printf("\nThe genre of the book %s by author %s is %s",novel.title,novel.author,novel.genre);
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
